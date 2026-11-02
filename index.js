@@ -64,8 +64,9 @@
     const entered = window.prompt('請輸入研究人員提供的受測代碼，例如P001。');
     if (entered === null) return;
 
-    const match = entered.trim().toUpperCase().match(/^W(\d{1,3})$/);
-    code = match ? 'W' + String(Number(match[1])).padStart(3, '0') : '';
+    const input = entered.trim().toUpperCase();
+    const match = input.match(/^W(\d{1,3})$/);
+    code = input === '111' ? '111' : (match ? 'W' + String(Number(match[1])).padStart(3, '0') : '');
     if (Object.prototype.hasOwnProperty.call(fixedOrders, code)) break;
     window.alert('請輸入受測代碼，例如P001。');
   }
