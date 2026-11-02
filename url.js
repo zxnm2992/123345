@@ -8,7 +8,5 @@
 
 
 const urls = [
-	'https://forms.gle/FnhVg9VdrDQAE1vo8',
-	'https://forms.gle/BB4eVJyneFQs3AWB9',
-	'https://gitlab.com/hms5232',
+  'https://forms.gle/BB4eVJyneFQs3AWB9',
 ];
