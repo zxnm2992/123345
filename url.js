@@ -10,6 +10,4 @@
 const urls = [
   'https://forms.gle/bqz3sFbYvjz8gC5m9',
   'https://forms.gle/v3VSNPocNCY9o1UY6',
-  '請換成C問卷的填答網址',
-  '請換成D問卷的填答網址',
 ];
